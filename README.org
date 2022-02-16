@@ -1,0 +1,16 @@
+* Description
+=2048-tui= is a TUI version of the popular [[https://play2048.co/][2048]] game. Use arrows to move and =Ctrl-C= to exit. Built with help of [[https://github.com/ArthurSonzogni/ftxui][FTXUI]].
+* Building
+#+begin_src bash
+mkdir build
+cd build
+cmake ..
+make
+#+end_src
+After that you should have a binary file =2048= in the =./build/= directory.
+
+* Requirements
+- CMake
+- Make
+- g++
+- Internet Access(to enable CMake to download needed libraries)
